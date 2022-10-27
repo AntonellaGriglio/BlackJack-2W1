@@ -1,0 +1,23 @@
+<div class="container-fluid" style="position:absolute;right: 0;">
+  <div class="row">
+    <div class="col-md-7"></div>
+
+    <div class="col-md-4">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Jugadas sin finalizar</th>
+            <th scope="col">Acciones</th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let jug of listaPartidas">
+            <th scope="row">{{jug.idJugada}}</th>
+            <td><button type="button" [disabled]="jug.estado == 1" class="btn btn-outline-secondary"
+                (click)="continuar(jug.idJugada)">Continuar</button></td>
+          </tr>
+      </table>
+    </div>
+
+    <div class="col-md-1"></div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="container-fluid" style="text-align: center;">
+  <app-mesa [puntosCrupier]="puntosCrupier" [puntosJugador]="puntosJugador" [cartasCrupier]="cartasCrupier"
+    [cartasJugador]="cartasJugador"></app-mesa>
+  <app-botones (OnPedir)="puntosJug('jugador')" (onQuedar)="puntos()" [resultado]="resultado" (onProxRonda)="limpiar()"
+    [idUsuario]="this.usuario.id" (onFinalizar)="finalizarJugada()" [puntosCrupier]="puntosCrupier"
+    [puntosJugador]="puntosJugador" [idPart]="this.idPart" [idJugada]="this.idJugada">
+  </app-botones>
+</div>

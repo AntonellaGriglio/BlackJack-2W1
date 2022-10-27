@@ -1,0 +1,18 @@
+<div class="salir">
+  <button type="button" (click)="salir()" class="btn btn-outline-danger">Salir</button>
+</div>
+
+<div class="container-fluid resultado">
+  <h2 class="display">{{resultado}}</h2>
+</div>
+
+<div class="container-fluid botones">
+  <div>
+    <!-- [disabled]="resultado !== ''" -->
+    <button type="button" [disabled]="resultado !== ''" (click)="pedir()"
+      class="btn btn-outline-secondary">Pedir</button>
+    <button type="button" (click)="quedar()" class="btn btn-outline-secondary">Quedarse</button>
+    <button type="button" [disabled]="resultado == ''" (click)="proxRonda()" class="btn btn-outline-secondary">Próxima Ronda</button>
+    <button type="button" (click)="finalizar()" class="btn btn-outline-secondary">Finalizar jugada</button>
+  </div>
+</div>

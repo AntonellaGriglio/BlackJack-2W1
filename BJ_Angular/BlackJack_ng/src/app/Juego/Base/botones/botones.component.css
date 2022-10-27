@@ -1,0 +1,28 @@
+.crupier {
+  padding-top: 30%;
+}
+
+.salir{
+  position: fixed;
+  left: 85%;
+  top: 15px;
+}
+
+.botones {
+  position: fixed;
+  top: 89%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resultado {
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+}
+
+button {
+  margin-left: 1rem;
+}

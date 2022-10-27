@@ -1,0 +1,31 @@
+<div class="mesa">
+  <div class="container py-5">
+
+    <div class="croupier py-2">
+      <h1 class="display" style="font-size: 25px;">CRUPIER ({{puntosCrupier}})</h1>
+      <div class="row flexBox">
+        <div class="col-3" *ngFor="let carta of cartasCrupier">
+          <ng-container>
+            <app-carta [urlCarta]="cartaUrl + carta.carta + '.png'"></app-carta>
+          </ng-container>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="jugador py-3">
+      <h1 class="display" style="font-size: 25px;">JUGADOR ({{puntosJugador}})</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3" *ngFor="let carta of cartasJugador">
+            <ng-container>
+              <app-carta [urlCarta]="cartaUrl + carta.carta + '.png'"></app-carta>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

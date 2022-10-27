@@ -1,0 +1,72 @@
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.exe
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.deps.json
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.runtimeconfig.json
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.pdb
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.AssemblyInfo.cs
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\scopedcss\bundle\BlackJack_api.styles.css
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.csproj.CopyComplete
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\refint\BlackJack_api.dll
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.pdb
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.genruntimeconfig.cache
+C:\Users\User\Desktop\Proyectos\DABD\BlackJack_TP_DABD\BJ_API\BlackJack_api\obj\Debug\net6.0\ref\BlackJack_api.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.csproj.AssemblyReference.cache
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.AssemblyInfoInputs.cache
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.AssemblyInfo.cs
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.csproj.CoreCompileInputs.cache
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\refint\BlackJack_api.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.pdb
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\appsettings.json
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.exe
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.deps.json
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.runtimeconfig.json
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\BlackJack_api.pdb
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\scopedcss\bundle\BlackJack_api.styles.css
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.csproj.CopyComplete
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\BlackJack_api.genruntimeconfig.cache
+C:\Users\Antonella\Downloads\BlackJack_GYU_DABD_2022 (1)\BJ_API\BlackJack_api\obj\Debug\net6.0\ref\BlackJack_api.dll

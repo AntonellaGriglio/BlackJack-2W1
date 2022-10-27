@@ -1,0 +1,12 @@
+.carta {
+  margin-left: 1rem;
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+img {
+  object-fit: cover;
+  width: 80px;
+  height: 30%;
+}
