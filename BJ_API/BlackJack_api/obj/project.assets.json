@@ -949,11 +949,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Antonella\\Downloads\\BlackJack_GYU_DABD_2022 (1)\\BJ_API\\BlackJack_api\\BlackJack_api.csproj",
+      "projectUniqueName": "C:\\Users\\Antonella\\Desktop\\cLASES pROGRAMACION\\4 Semestre\\BlackJack 2W1\\BlackJack-2W1\\BJ_API\\BlackJack_api\\BlackJack_api.csproj",
       "projectName": "BlackJack_api",
-      "projectPath": "C:\\Users\\Antonella\\Downloads\\BlackJack_GYU_DABD_2022 (1)\\BJ_API\\BlackJack_api\\BlackJack_api.csproj",
+      "projectPath": "C:\\Users\\Antonella\\Desktop\\cLASES pROGRAMACION\\4 Semestre\\BlackJack 2W1\\BlackJack-2W1\\BJ_API\\BlackJack_api\\BlackJack_api.csproj",
       "packagesPath": "C:\\Users\\Antonella\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Antonella\\Downloads\\BlackJack_GYU_DABD_2022 (1)\\BJ_API\\BlackJack_api\\obj\\",
+      "outputPath": "C:\\Users\\Antonella\\Desktop\\cLASES pROGRAMACION\\4 Semestre\\BlackJack 2W1\\BlackJack-2W1\\BJ_API\\BlackJack_api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Antonella\\AppData\\Roaming\\NuGet\\NuGet.Config",

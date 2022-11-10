@@ -18,6 +18,8 @@ import { UsuarioService } from './services/usuario.service';
 import { MazoService } from './services/mazo.service';
 import { PartidasComponent } from './Juego/Usuario/partidas/partidas.component';
 import { JugadaService } from './services/jugada.service';
+import { NgChartsModule } from 'ng2-charts';
+import { EstadisticasComponent } from './Juego/Usuario/estadisticas/estadisticas.component';
 
 @NgModule({
   declarations: [
@@ -29,13 +31,15 @@ import { JugadaService } from './services/jugada.service';
     CrearComponent,
     PrincipalComponent,
     JuegoComponent,
-    PartidasComponent
+    PartidasComponent,
+    EstadisticasComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgChartsModule
   ],
   providers: [UsuarioService, CookieService, MazoService, JugadaService],
   bootstrap: [AppComponent]

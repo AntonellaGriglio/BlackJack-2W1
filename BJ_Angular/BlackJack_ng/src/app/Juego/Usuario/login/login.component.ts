@@ -20,7 +20,6 @@ export class LoginComponent implements OnInit {
     this.userServ.postLogin(this.usuario.nombreUsuario, this.usuario.password).subscribe((data) => {
       if (data.ok) {
         console.log(data);
-        //this.userServ.setToken(data.token);
         this.route.navigate(['/principal/' + data.id]);
       } else {
         alert(data.error);

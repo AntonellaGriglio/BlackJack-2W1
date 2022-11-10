@@ -16,7 +16,7 @@ public class JugadaController : ControllerBase
         _context = context;
     }
 
-    //LISTORTI
+  
     //USO-> "ultimas partidas"
     [HttpGet]
     [Route("api/jugada/lista/{idUsu}")]
@@ -25,7 +25,7 @@ public class JugadaController : ControllerBase
         try
         {
             var result = new RdoJugadas();
-            //var usuario = await _context.Usuarios.Where(c => c.IdUsuario.Equals(idUsu)).FirstOrDefaultAsync();
+            
             var jugadas = await _context.Jugada.Where(j => j.IdUsuario.Equals(idUsu) && j.Estado.Equals(0)).
             Include(c => c.IdUsuarioNavigation).OrderByDescending(j => j.IdJugada).ToListAsync();
             if (jugadas != null)
@@ -52,58 +52,8 @@ public class JugadaController : ControllerBase
         }
     }
 
-    //NO ANDAAA
-    /*[HttpGet]
-    [Route("api/partida/continuar/{idJugada}+{idUsu}")]
-    public async Task<ActionResult<RdoJugContinuar>> getJugadaId(int idJugada, int idUsu)
-    {
-        try
-        {
-            var cartasJugadas = await _context.Cartajugada.ToListAsync();
-            var carta = await _context.Carta.ToListAsync();
-            var partida = await _context.Partida.Where(p => p.IdJugada.Equals(idJugada)
-            && p.IdJugadaNavigation.IdUsuario.Equals(idUsu) && p.Estado.Equals(0)).OrderBy(p => p.IdPartida).
-            ToListAsync();
-
-            var result = new RdoJugContinuar();
-
-            var query = from caj in cartasJugadas
-                        join car in carta on caj.IdCarta equals car.IdCarta into table1
-                        from car in table1.DefaultIfEmpty()
-                        join part in partida on caj.IdPartida equals part.IdPartida into table2
-                        from part in table2.DefaultIfEmpty()
-                            //orderby part.IdPartida descending
-                        select new JoinClass { getPartidas = part, getCartaJ = caj, carta = car };
-
-            Console.WriteLine(query);
-
-            foreach (var q in query)
-            {
-                foreach (var c in q.getPartidas.Cartajugada)
-                {
-                    var rdoAux = new RdoUnicaCarta()
-                    {
-                        id = c.IdCarta,
-                        carta = c.IdCartaNavigation.Carta,
-                        valor = c.IdCartaNavigation.Valor
-                    };
-                    result.cartasJugadas.Add(rdoAux);
-                }
-                result.puntosJug = q.getPartidas.PuntosCrupier;
-                result.puntosCrup = q.getPartidas.PuntosCrupier;
-                result.idJugada = q.getPartidas.IdJugada;
-                result.usuario = q.getPartidas.IdJugadaNavigation.IdUsuarioNavigation.Usuario1;
-            }
-
-            return result;
-        }
-        catch (Exception e)
-        {
-            return BadRequest("No se puede realizar esta acción");
-        }
-    }*/
-
-    //LISTORTI
+    
+   
     [HttpPut]
     [Route("api/jugada/finalizar/{idJug}+{idUsu}")]
     public async Task<ActionResult<bool>> finalizarJugada(int idJug, int idUsu)
@@ -273,19 +223,7 @@ public class JugadaController : ControllerBase
             }
             else
             {
-                /*var nueva = new Partidum()
-                {
-                    IdJugada = idJug,
-                    PuntosCrupier = 0,
-                    PuntosJugador = 0,
-                    Estado = 0,
-                    Resultado = ""
-                };
-                await _context.AddAsync(nueva);
-                _context.SaveChanges();
-                rdo.idJugada = nueva.IdPartida;
-                rdo.puntosJug = 0;
-                rdo.puntosCrup = 0;*/
+             
                 return Ok("No hay jugadas disponibles");
             }
             return Ok(rdo);
@@ -333,4 +271,80 @@ public class JugadaController : ControllerBase
             return BadRequest("No se puede realizar esta acción");
         }
     }
+
+    [HttpGet]
+    [Route("api/partidas/lista/{idUsu}")]
+    public async Task<ActionResult<RdoListaPartida>> listaPartidas(int idUsu)
+    {
+        try
+        {
+            var result = new RdoListaPartida();
+            
+            var partidas = await _context.Partida.Where(j => j.IdJugadaNavigation.IdUsuario.Equals(idUsu)).ToListAsync();
+            if (partidas != null)
+            {
+                foreach (var par in partidas)
+                {
+                    var resultAux = new RdoReporte()
+                    {
+                        idPartida = par.IdPartida,
+                        IdJugada = par.IdJugada,
+                        PuntosCrupier = par.PuntosCrupier,
+                        PuntosJugador = par.PuntosJugador,
+                        Estado= par.Estado,
+                        Resultado = par.Resultado
+                    };
+                    result.listaPartida.Add(resultAux);
+                }
+                return Ok(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
+        }
+        catch (Exception e)
+        {
+            return BadRequest("No se puede realizar esta acción");
+        }
+    }
+
+     [HttpGet]
+    [Route("api/partidas/lista/ganadas")]
+    public async Task<ActionResult<RdoPartidasGanadas>> listaPartidasGanadas()
+    {
+        try
+        {
+            var result = new RdoPartidasGanadas();
+            var partidas = await _context.Partida.Where(p => p.Resultado!.Equals("Ganaste!")).
+            Include(u => u.IdJugadaNavigation.IdUsuarioNavigation).ToListAsync();
+            if (partidas != null)
+            {
+                foreach (var par in partidas)
+                {
+                    var resultAux = new Id()
+                    {
+                        IdUsuario=par.IdJugadaNavigation.IdUsuario,
+                        Nombre = par.IdJugadaNavigation.IdUsuarioNavigation.Usuario1,
+                 
+                    };
+                    result.listaUsuarios.Add(resultAux);
+                }
+                return Ok(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
+        }
+        catch (Exception e)
+        {
+            return BadRequest("No se puede realizar esta acción");
+        }
+    }
+
+
+
+
+
 }

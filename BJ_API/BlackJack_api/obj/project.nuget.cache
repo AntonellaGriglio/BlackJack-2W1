@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VDZOBsJ/2XsMmtcidVmfyZy5/P5uiczWpE+OVmwH/hQk1MaJrydcW2jLvimjW2EwQzAhSG40CAbDJEvWtR0/+Q==",
+  "dgSpecHash": "kAK7foPeGSYzpAM6whaVGdfIxK73r4dF9kqVeld1gz/pqWgPG63d/iYLMMUbvYw5nDcIyTAsrCnSGclTrhfZrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Antonella\\Downloads\\BlackJack_GYU_DABD_2022 (1)\\BJ_API\\BlackJack_api\\BlackJack_api.csproj",
+  "projectFilePath": "C:\\Users\\Antonella\\Desktop\\cLASES pROGRAMACION\\4 Semestre\\BlackJack 2W1\\BlackJack-2W1\\BJ_API\\BlackJack_api\\BlackJack_api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Antonella\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Antonella\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",

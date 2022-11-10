@@ -1,0 +1,29 @@
+.container-fluid{
+    background-color: #030315;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 8%;
+  }
+h3{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 8%;
+
+}
+.salir{
+    position: fixed;
+    left: 85%;
+    top: 15px;
+  }
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+    margin-bottom: 8%;
+
+}

@@ -128,13 +128,13 @@ export class JuegoComponent implements OnInit {
 
     this.puntosJugador = this.puntosJugador;
 
-    //Llenar la carta jugada en API
+   
     this.cartasJugadas.forEach(carta => {
       this.cartaJ.cartaJ = carta;
       this.cartaJ.jugador = jugador;
     })
 
-      //antes de agregar esto lo hacia banca q ahi tiene q habilitar el proxima ronda y mostrar el resultad
+      
       this.subs.add(this.carServ.postCartaJugada(this.idJugada, this.idPart, this.cartaJ.cartaJ.id, this.cartaJ.jugador).
         subscribe({
           next: (cj: CartaJugada) => {
@@ -172,7 +172,7 @@ export class JuegoComponent implements OnInit {
     this.jugServ.actualizarPartida(this.idPart, this.idJugada, this.usuario.id, this.puntosCrupier,
       this.puntosJugador, 0, this.resultado).subscribe({
         next: () => {
-          alert("Guardado correctamente");
+          
         },
         error: (err) => {
           console.log("Error", err);
@@ -184,7 +184,7 @@ export class JuegoComponent implements OnInit {
   finalizarJugada() {
     this.subs.add(this.jugServ.finalizarJugada(this.idJugada, this.usuario.id).subscribe({
       next: () => {
-        alert("Partida finalizada");
+        
         this.route.navigate(['principal/' + this.usuario.id]);
       },
       error: (err) => {
