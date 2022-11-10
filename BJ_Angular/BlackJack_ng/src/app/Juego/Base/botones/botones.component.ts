@@ -47,7 +47,7 @@ export class BotonesComponent implements OnInit {
     this.jugServ.actualizarPartida(this.idPart, this.idJugada, this.idUsuario, this.puntosCrupier,
       this.puntosJugador, 0, this.resultado).subscribe({
         next: () => {
-          alert("Guardado correctamente");
+          
         },
         error: (err) => {
           console.log("Error", err);

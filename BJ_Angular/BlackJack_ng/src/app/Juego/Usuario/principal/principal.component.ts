@@ -72,4 +72,7 @@ export class PrincipalComponent implements OnInit {
   listadoPartidas() {
     this.route.navigate(['/lista/' + this.idUsuario]);
   }
+  estadisticas(){
+    this.route.navigate(['/estadisticas/' + this.idUsuario]);
+  }
 }

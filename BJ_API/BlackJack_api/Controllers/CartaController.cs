@@ -108,4 +108,40 @@ public class CartaController : ControllerBase
             return BadRequest("No se puede realizar esta acción");
         }
     }
+
+    [HttpGet]
+    [Route("api/cartasJugadas/lista/")]
+    public async Task<ActionResult<RdoListaCartaJugada>> listaCartaJugadas()
+    {
+        try
+        {
+            var result = new RdoListaCartaJugada();
+            
+            var cartaJugadas = await _context.Cartajugada.Include(j => j.IdCartaNavigation).ToListAsync();
+            if (cartaJugadas != null)
+            {
+                foreach (var cj in cartaJugadas)
+                {
+                    var resultAux = new RdoCartaJugada()
+                    {
+                       IdCartaJugada = cj.IdCartaJugada,
+                       IdCarta = cj.IdCarta,
+                       Carta = cj.IdCartaNavigation.Carta
+                    };
+                    result.listaCartaJugadas.Add(resultAux);
+                }
+                return Ok(result);
+            }
+            else
+            {
+                return Ok(result);
+            }
+        }
+        catch (Exception e)
+        {
+            return BadRequest("No se puede realizar esta acción");
+        }
+    }
+
+
 }
